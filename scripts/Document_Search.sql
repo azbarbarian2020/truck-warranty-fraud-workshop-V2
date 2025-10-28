@@ -3,6 +3,13 @@ USE SCHEMA ANALYTICS;
 
 LIST @DOCUMENTS;
 
+/*
+  ____ _____ _____ ____    _       _____      _                  _     _____         _    
+ / ___|_   _| ____|  _ \  / |  _  | ____|_  _| |_ _ __ __ _  ___| |_  |_   _|____  _| |_  
+ \___ \ | | |  _| | |_) | | | (_) |  _| \ \/ / __| '__/ _` |/ __| __|   | |/ _ \ \/ / __| 
+  ___) || | | |___|  __/  | |  _  | |___ >  <| |_| | | (_| | (__| |_    | |  __/>  <| |_  
+ |____/ |_| |_____|_|     |_| (_) |_____/_/\_\\__|_|  \__,_|\___|\__|   |_|\___/_/\_\\__|                                                           */
+
 -- Extract text from all PDF documents
 CREATE OR REPLACE TABLE RAW_TEXT AS
 SELECT 
@@ -33,6 +40,8 @@ SELECT
 FROM DIRECTORY(@TRUCK_WARRANTY_WORKSHOP.ANALYTICS.DOCUMENTS)
 WHERE RELATIVE_PATH LIKE '%.pdf';
 
+
+--Verify RAW_TEXT table populated
 SELECT 
     DOCUMENT_TYPE,
     DOCUMENT_TITLE,
@@ -40,6 +49,15 @@ SELECT
     LENGTH(EXTRACTED_TEXT) as text_length
 FROM RAW_TEXT
 ORDER BY DOCUMENT_TYPE, MODEL_NUMBER;
+
+/*
+  ____ _____ _____ ____    ____         ____ _                 _      _____         _    
+ / ___|_   _| ____|  _ \  |___ \   _   / ___| |__  _   _ _ __ | | __ |_   _|____  _| |_  
+ \___ \ | | |  _| | |_) |   __) | (_) | |   | '_ \| | | | '_ \| |/ /   | |/ _ \ \/ / __| 
+  ___) || | | |___|  __/   / __/   _  | |___| | | | |_| | | | |   <    | |  __/>  <| |_  
+ |____/ |_| |_____|_|     |_____| (_)  \____|_| |_|\__,_|_| |_|_|\_\   |_|\___/_/\_\\__| 
+                                                                                         
+*/
 
 CREATE OR REPLACE TABLE CHUNKED_TEXT AS
 SELECT
@@ -59,24 +77,17 @@ LATERAL FLATTEN(
     )
 ) c;
 
-SELECT 
-    DOCUMENT_TYPE,
-    DOCUMENT_TITLE,
-    COUNT(*) as chunk_count,
-    MIN(LENGTH(CHUNK_TEXT)) as min_length,
-    MAX(LENGTH(CHUNK_TEXT)) as max_length
-FROM CHUNKED_TEXT
-GROUP BY DOCUMENT_TYPE, DOCUMENT_TITLE
-ORDER BY DOCUMENT_TYPE, DOCUMENT_TITLE;
+--Verify CHUNKED_TEXT table is populated
+select * from chunked_text;
 
-SELECT 
-    DOCUMENT_TITLE,
-    CHUNK_INDEX,
-    SUBSTRING(CHUNK_TEXT, 1, 200) as preview
-FROM CHUNKED_TEXT
-WHERE DOCUMENT_TYPE = 'SERVICE_GUIDE'
-  AND CHUNK_TEXT LIKE '%P0420%'
-LIMIT 5;
+/*
+  ____ _____ _____ ____    _____        ____                _         ____                      _       ____                  _           
+ / ___|_   _| ____|  _ \  |___ /   _   / ___|_ __ ___  __ _| |_ ___  / ___|  ___  __ _ _ __ ___| |__   / ___|  ___ _ ____   _(_) ___ ___  
+ \___ \ | | |  _| | |_) |   |_ \  (_) | |   | '__/ _ \/ _` | __/ _ \ \___ \ / _ \/ _` | '__/ __| '_ \  \___ \ / _ \ '__\ \ / / |/ __/ _ \ 
+  ___) || | | |___|  __/   ___) |  _  | |___| | |  __/ (_| | ||  __/  ___) |  __/ (_| | | | (__| | | |  ___) |  __/ |   \ V /| | (_|  __/ 
+ |____/ |_| |_____|_|     |____/  (_)  \____|_|  \___|\__,_|\__\___| |____/ \___|\__,_|_|  \___|_| |_| |____/ \___|_|    \_/ |_|\___\___| 
+                                                                                                                                          
+*/
 
 CREATE OR REPLACE CORTEX SEARCH SERVICE DOCUMENTATION_SEARCH
 ON CHUNK_TEXT
