@@ -1,0 +1,201 @@
+TECHNICIAN_ID,TECHNICIAN_NAME,CURRENT_DEALER_ID,HIRE_DATE,SPECIALIZATION,CERTIFICATION_LEVEL,YEARS_EXPERIENCE,PERFORMANCE_RATING
+TECH_001,Samuel Davis,DEALER_001,2020-02-21,Engine Diagnostics,Journeyman,9,5
+TECH_002,Jerry Miller,DEALER_002,2020-06-27,Electrical Systems,Apprentice,3,5
+TECH_003,Donald Anderson,DEALER_003,2022-10-31,Electrical Systems,Master,19,5
+TECH_004,Raymond Rivera,DEALER_004,2022-05-09,Emissions Control,Apprentice,20,5
+TECH_005,James Roberts,DEALER_005,2020-11-22,Engine Diagnostics,Apprentice,12,5
+TECH_006,Donald Roberts,DEALER_006,2021-11-20,Diesel Systems,Master,14,5
+TECH_007,George Flores,DEALER_007,2021-06-25,Brake Systems,Master,25,4
+TECH_008,Joseph Sanchez,DEALER_008,2020-06-10,Electrical Systems,Journeyman,22,4
+TECH_009,Timothy Nguyen,DEALER_009,2021-01-28,Engine Diagnostics,Master,3,4
+TECH_010,Aaron Jackson,DEALER_010,2020-06-12,Brake Systems,Senior,5,4
+TECH_011,Jacob Adams,DEALER_011,2022-01-17,Emissions Control,Journeyman,13,5
+TECH_012,Andrew Rivera,DEALER_012,2020-05-26,Electrical Systems,Senior,19,3
+TECH_013,Daniel Walker,DEALER_013,2022-02-16,General Repair,Senior,23,4
+TECH_014,Aaron Gomez,DEALER_014,2020-04-24,Emissions Control,Master,12,4
+TECH_015,David Wilson,DEALER_015,2021-10-06,Emissions Control,Apprentice,14,3
+TECH_016,Raymond Walker,DEALER_016,2020-10-19,General Repair,Senior,9,3
+TECH_017,Stephen Taylor,DEALER_017,2022-05-27,Electrical Systems,Apprentice,13,5
+TECH_018,Thomas King,DEALER_018,2022-10-07,Diesel Systems,Master,5,5
+TECH_019,Daniel Hall,DEALER_019,2022-05-14,Electrical Systems,Master,14,4
+TECH_020,Jacob Wright,DEALER_020,2021-05-29,Electrical Systems,Master,23,3
+TECH_021,Alexander Scott,DEALER_021,2021-06-30,Brake Systems,Journeyman,5,5
+TECH_022,James Mitchell,DEALER_022,2021-06-23,Electrical Systems,Senior,18,3
+TECH_023,Samuel Martin,DEALER_023,2022-11-05,Electrical Systems,Senior,6,4
+TECH_024,Daniel Scott,DEALER_024,2022-12-22,Diesel Systems,Journeyman,17,5
+TECH_025,Timothy Martin,DEALER_025,2021-05-05,Diesel Systems,Senior,20,2
+TECH_026,William Mitchell,DEALER_026,2022-09-22,Brake Systems,Master,19,3
+TECH_027,Thomas Baker,DEALER_027,2022-08-31,Electrical Systems,Senior,10,4
+TECH_028,Brandon Lewis,DEALER_028,2021-03-09,Electrical Systems,Senior,24,4
+TECH_029,Gregory Nelson,DEALER_029,2022-02-03,Transmission,Apprentice,5,5
+TECH_030,David Thompson,DEALER_030,2020-02-13,Electrical Systems,Senior,20,5
+TECH_031,David Campbell,DEALER_031,2020-04-30,Emissions Control,Master,3,3
+TECH_032,David King,DEALER_032,2021-05-02,General Repair,Apprentice,8,4
+TECH_033,Dennis Nguyen,DEALER_033,2022-08-26,Emissions Control,Apprentice,15,5
+TECH_034,Richard Baker,DEALER_034,2022-06-01,General Repair,Apprentice,15,4
+TECH_035,Dennis Brown,DEALER_035,2020-07-20,Diesel Systems,Apprentice,25,4
+TECH_036,Richard Thomas,DEALER_036,2021-01-27,Emissions Control,Apprentice,6,4
+TECH_037,Andrew Walker,DEALER_037,2021-05-26,Brake Systems,Master,16,3
+TECH_038,Larry Miller,DEALER_038,2020-04-13,Engine Diagnostics,Master,4,2
+TECH_039,Paul Hernandez,DEALER_039,2022-04-12,Transmission,Apprentice,8,3
+TECH_040,Michael Hernandez,DEALER_040,2022-02-15,Diesel Systems,Apprentice,10,2
+TECH_041,Jose Walker,DEALER_041,2021-08-07,Transmission,Apprentice,6,5
+TECH_042,Donald Brown,DEALER_042,2020-05-04,Engine Diagnostics,Journeyman,3,5
+TECH_043,Nicholas King,DEALER_043,2022-12-23,Emissions Control,Master,18,5
+TECH_044,Matthew Jones,DEALER_044,2020-05-19,Engine Diagnostics,Senior,14,5
+TECH_045,Justin Thomas,DEALER_045,2020-03-22,Electrical Systems,Master,15,4
+TECH_046,Justin Wright,DEALER_046,2021-10-09,General Repair,Senior,23,3
+TECH_047,Paul Taylor,DEALER_037,2024-01-15,Emissions Control,Journeyman,16,1
+TECH_048,Kevin Roberts,DEALER_048,2020-05-28,Diesel Systems,Apprentice,21,2
+TECH_049,Richard Jones,DEALER_049,2021-03-12,Electrical Systems,Journeyman,6,2
+TECH_050,David Thomas,DEALER_050,2022-01-26,General Repair,Senior,16,3
+TECH_051,Frank Martin,DEALER_001,2022-12-19,Diesel Systems,Journeyman,23,5
+TECH_052,Thomas Taylor,DEALER_002,2020-08-24,Diesel Systems,Senior,10,5
+TECH_053,Donald Campbell,DEALER_003,2021-12-03,Emissions Control,Journeyman,18,4
+TECH_054,Michael Garcia,DEALER_004,2022-05-17,Brake Systems,Journeyman,3,5
+TECH_055,Aaron Rodriguez,DEALER_005,2021-06-20,Emissions Control,Apprentice,19,3
+TECH_056,Larry Smith,DEALER_006,2020-08-17,Diesel Systems,Senior,19,5
+TECH_057,Timothy Hill,DEALER_007,2020-10-30,Transmission,Senior,3,4
+TECH_058,Jose Williams,DEALER_008,2022-01-02,Emissions Control,Senior,23,5
+TECH_059,Aaron Torres,DEALER_009,2022-04-12,Electrical Systems,Senior,9,3
+TECH_060,Matthew Ramirez,DEALER_010,2020-02-20,Emissions Control,Journeyman,15,3
+TECH_061,Jerry Thomas,DEALER_011,2021-06-30,Emissions Control,Master,14,3
+TECH_062,Nicholas Anderson,DEALER_012,2021-02-12,Brake Systems,Apprentice,13,4
+TECH_063,Jose Anderson,DEALER_013,2021-04-01,Diesel Systems,Senior,14,4
+TECH_064,David Gomez,DEALER_014,2021-07-25,General Repair,Apprentice,23,2
+TECH_065,Stephen Thompson,DEALER_015,2020-02-26,Diesel Systems,Journeyman,7,4
+TECH_066,Steven Williams,DEALER_016,2020-08-10,Electrical Systems,Apprentice,13,3
+TECH_067,Kevin Lewis,DEALER_017,2022-11-13,Diesel Systems,Apprentice,20,5
+TECH_068,Robert Campbell,DEALER_018,2022-06-12,Diesel Systems,Senior,13,4
+TECH_069,Gregory Thompson,DEALER_019,2021-10-04,Engine Diagnostics,Master,25,3
+TECH_070,Eric Martin,DEALER_020,2022-04-16,General Repair,Apprentice,24,5
+TECH_071,Thomas Gonzalez,DEALER_021,2022-05-11,Engine Diagnostics,Apprentice,23,3
+TECH_072,Matthew Green,DEALER_022,2021-09-08,Transmission,Master,11,5
+TECH_073,Jeffrey Hill,DEALER_023,2021-10-21,Transmission,Apprentice,16,4
+TECH_074,Eric Young,DEALER_024,2020-12-13,Engine Diagnostics,Master,11,4
+TECH_075,Samuel Green,DEALER_025,2021-11-17,Diesel Systems,Senior,23,4
+TECH_076,Anthony Martinez,DEALER_026,2020-02-20,Diesel Systems,Senior,17,4
+TECH_077,Aaron Jones,DEALER_027,2022-07-21,Transmission,Senior,24,4
+TECH_078,Gary Clark,DEALER_028,2021-05-14,Emissions Control,Master,5,3
+TECH_079,Mark Lopez,DEALER_029,2022-11-26,Transmission,Master,19,5
+TECH_080,Joseph Walker,DEALER_030,2020-09-30,Brake Systems,Apprentice,23,4
+TECH_081,Larry Flores,DEALER_031,2021-10-11,Brake Systems,Apprentice,21,3
+TECH_082,Eric Lewis,DEALER_032,2022-07-02,Emissions Control,Apprentice,16,5
+TECH_083,Paul Adams,DEALER_033,2021-07-21,Brake Systems,Apprentice,22,5
+TECH_084,Ryan Jones,DEALER_034,2021-08-08,Emissions Control,Journeyman,12,4
+TECH_085,Stephen Garcia,DEALER_035,2020-10-10,Emissions Control,Senior,14,4
+TECH_086,Frank Wilson,DEALER_036,2020-05-11,Transmission,Apprentice,12,4
+TECH_087,Jason Brown,DEALER_037,2021-02-27,Brake Systems,Apprentice,14,3
+TECH_088,Scott Rivera,DEALER_038,2020-02-10,Brake Systems,Apprentice,17,5
+TECH_089,George Martin,DEALER_001,2023-06-01,Brake Systems,Apprentice,19,1
+TECH_090,Jerry Carter,DEALER_040,2021-03-27,Transmission,Senior,10,4
+TECH_091,John Sanchez,DEALER_041,2021-11-19,Engine Diagnostics,Apprentice,25,5
+TECH_092,Jacob Rodriguez,DEALER_042,2022-12-29,Diesel Systems,Apprentice,20,4
+TECH_093,John Garcia,DEALER_043,2022-05-27,Emissions Control,Apprentice,7,5
+TECH_094,Ronald Lee,DEALER_044,2021-03-09,Transmission,Journeyman,12,3
+TECH_095,Ronald Moore,DEALER_045,2022-05-13,General Repair,Master,17,5
+TECH_096,Stephen Brown,DEALER_046,2021-12-17,Emissions Control,Master,22,5
+TECH_097,John Thomas,DEALER_047,2021-02-12,Brake Systems,Master,21,5
+TECH_098,Thomas Young,DEALER_048,2020-08-22,Electrical Systems,Senior,16,4
+TECH_099,Aaron Harris,DEALER_049,2020-12-09,Electrical Systems,Master,7,2
+TECH_100,Richard Hill,DEALER_050,2020-02-22,General Repair,Apprentice,14,2
+TECH_101,Anthony Jones,DEALER_001,2021-05-12,Diesel Systems,Journeyman,23,4
+TECH_102,Joseph Nguyen,DEALER_002,2020-03-25,General Repair,Apprentice,23,4
+TECH_103,Eric Nelson,DEALER_003,2021-11-29,Diesel Systems,Apprentice,17,5
+TECH_104,Timothy Adams,DEALER_004,2022-07-30,Engine Diagnostics,Senior,15,5
+TECH_105,Jonathan Nelson,DEALER_005,2021-07-07,Electrical Systems,Apprentice,16,4
+TECH_106,Dennis Hill,DEALER_006,2021-07-03,General Repair,Senior,4,5
+TECH_107,Ryan Thomas,DEALER_007,2022-08-09,Electrical Systems,Apprentice,12,5
+TECH_108,Kevin Lopez,DEALER_008,2022-09-25,Emissions Control,Journeyman,10,4
+TECH_109,Brandon Rivera,DEALER_009,2021-07-19,Electrical Systems,Master,18,2
+TECH_110,William Thomas,DEALER_010,2022-04-12,Transmission,Senior,24,4
+TECH_111,Frank Allen,DEALER_011,2022-07-06,Brake Systems,Master,4,5
+TECH_112,Edward Rivera,DEALER_012,2021-05-13,General Repair,Journeyman,17,4
+TECH_113,George Lewis,DEALER_013,2021-11-08,General Repair,Apprentice,10,4
+TECH_114,Mark Davis,DEALER_014,2021-01-29,General Repair,Master,25,4
+TECH_115,Tyler Rivera,DEALER_015,2021-01-14,Emissions Control,Senior,25,4
+TECH_116,Tyler Wright,DEALER_016,2021-08-02,Diesel Systems,Senior,11,5
+TECH_117,Matthew Martin,DEALER_017,2020-01-29,Engine Diagnostics,Senior,10,5
+TECH_118,Michael Torres,DEALER_018,2021-08-21,Engine Diagnostics,Senior,22,3
+TECH_119,Gary Miller,DEALER_019,2020-01-26,Electrical Systems,Journeyman,17,4
+TECH_120,Brian Lopez,DEALER_020,2020-04-15,General Repair,Apprentice,5,3
+TECH_121,Edward Allen,DEALER_021,2020-05-31,Electrical Systems,Master,6,5
+TECH_122,Justin Martin,DEALER_022,2020-06-23,Emissions Control,Master,19,3
+TECH_123,Brandon Flores,DEALER_037,2024-01-15,Brake Systems,Apprentice,16,1
+TECH_124,Ryan Martin,DEALER_024,2022-05-28,General Repair,Master,21,2
+TECH_125,Richard Roberts,DEALER_025,2021-03-01,Engine Diagnostics,Senior,10,4
+TECH_126,Daniel Thomas,DEALER_026,2020-12-21,Electrical Systems,Master,7,5
+TECH_127,Ryan Rivera,DEALER_027,2022-08-20,General Repair,Master,9,5
+TECH_128,Kenneth Rivera,DEALER_028,2022-07-18,Diesel Systems,Senior,10,3
+TECH_129,Samuel Hill,DEALER_029,2021-02-09,Transmission,Master,19,5
+TECH_130,Christopher Moore,DEALER_030,2020-10-18,Diesel Systems,Master,7,3
+TECH_131,Brandon Carter,DEALER_031,2021-08-14,Transmission,Master,16,4
+TECH_132,Patrick Clark,DEALER_032,2021-07-11,Electrical Systems,Apprentice,16,5
+TECH_133,Robert Lewis,DEALER_033,2021-10-22,Electrical Systems,Journeyman,2,5
+TECH_134,Alexander Nguyen,DEALER_034,2020-02-12,Brake Systems,Journeyman,20,5
+TECH_135,Tyler Lopez,DEALER_035,2022-08-21,Electrical Systems,Apprentice,10,5
+TECH_136,Scott Lewis,DEALER_036,2022-10-04,Diesel Systems,Apprentice,13,4
+TECH_137,Kevin Baker,DEALER_037,2020-08-02,Brake Systems,Senior,12,4
+TECH_138,Gary Jackson,DEALER_038,2022-03-31,Brake Systems,Master,16,5
+TECH_139,Steven Lee,DEALER_039,2020-08-25,Brake Systems,Apprentice,18,3
+TECH_140,James Baker,DEALER_040,2022-08-04,Transmission,Master,8,4
+TECH_141,Benjamin Roberts,DEALER_041,2022-10-17,Engine Diagnostics,Apprentice,3,5
+TECH_142,Larry Rodriguez,DEALER_042,2021-08-12,Transmission,Apprentice,5,5
+TECH_143,Samuel Flores,DEALER_043,2021-05-05,Engine Diagnostics,Senior,11,4
+TECH_144,Larry Ramirez,DEALER_044,2020-07-09,Emissions Control,Master,16,2
+TECH_145,Raymond Martinez,DEALER_045,2022-10-17,Engine Diagnostics,Journeyman,18,3
+TECH_146,Jason Young,DEALER_046,2022-08-25,Emissions Control,Apprentice,19,5
+TECH_147,Anthony Flores,DEALER_047,2022-11-06,Engine Diagnostics,Senior,4,5
+TECH_148,Jose Ramirez,DEALER_048,2021-11-27,Brake Systems,Journeyman,2,5
+TECH_149,Joshua Hill,DEALER_049,2022-09-29,Brake Systems,Senior,16,4
+TECH_150,George Thompson,DEALER_050,2022-02-11,Transmission,Journeyman,8,2
+TECH_151,Paul Nguyen,DEALER_001,2022-02-23,Emissions Control,Apprentice,3,4
+TECH_152,Nicholas Campbell,DEALER_002,2022-02-19,Transmission,Senior,17,2
+TECH_153,Scott Thompson,DEALER_003,2020-07-24,Brake Systems,Apprentice,5,4
+TECH_154,Jacob Smith,DEALER_004,2020-10-22,Transmission,Senior,4,4
+TECH_155,Steven Thompson,DEALER_005,2022-03-25,Engine Diagnostics,Master,12,3
+TECH_156,Stephen Sanchez,DEALER_037,2024-01-15,Engine Diagnostics,Apprentice,19,2
+TECH_157,Robert Green,DEALER_007,2020-05-20,Emissions Control,Journeyman,9,3
+TECH_158,Jeffrey Miller,DEALER_008,2020-07-24,Transmission,Senior,24,5
+TECH_159,John Williams,DEALER_009,2021-10-26,Brake Systems,Master,11,4
+TECH_160,Jeffrey Martinez,DEALER_010,2021-05-15,Electrical Systems,Apprentice,20,4
+TECH_161,Matthew Hernandez,DEALER_011,2020-12-24,Diesel Systems,Apprentice,21,4
+TECH_162,Gary Hill,DEALER_012,2020-10-20,Emissions Control,Apprentice,22,5
+TECH_163,Steven Baker,DEALER_013,2020-01-20,Brake Systems,Apprentice,11,4
+TECH_164,Daniel Jones,DEALER_014,2022-06-23,General Repair,Journeyman,22,2
+TECH_165,Patrick Taylor,DEALER_015,2022-07-24,Brake Systems,Journeyman,8,2
+TECH_166,Nicholas Miller,DEALER_016,2021-04-30,Transmission,Journeyman,20,5
+TECH_167,Patrick Jackson,DEALER_017,2020-02-14,Brake Systems,Apprentice,10,5
+TECH_168,Alexander Gomez,DEALER_018,2020-04-10,Electrical Systems,Apprentice,11,3
+TECH_169,Mark Flores,DEALER_019,2021-12-22,Emissions Control,Senior,21,5
+TECH_170,Tyler Mitchell,DEALER_020,2020-10-07,Engine Diagnostics,Master,22,4
+TECH_171,Joshua Robinson,DEALER_021,2020-03-09,Electrical Systems,Journeyman,25,5
+TECH_172,Kenneth Lee,DEALER_022,2022-04-30,Emissions Control,Senior,6,3
+TECH_173,Timothy Wright,DEALER_023,2022-10-24,General Repair,Senior,10,3
+TECH_174,Nicholas Jackson,DEALER_024,2021-11-24,Brake Systems,Master,16,2
+TECH_175,Christopher Roberts,DEALER_025,2021-04-07,Brake Systems,Apprentice,19,4
+TECH_176,Jose Clark,DEALER_026,2020-01-29,General Repair,Master,16,4
+TECH_177,Jerry Hall,DEALER_027,2021-06-20,Electrical Systems,Apprentice,22,2
+TECH_178,Richard Hall,DEALER_001,2023-06-01,Transmission,Master,21,2
+TECH_179,Larry Lee,DEALER_029,2021-03-29,Engine Diagnostics,Master,22,3
+TECH_180,Patrick Martin,DEALER_030,2022-04-16,Diesel Systems,Senior,3,2
+TECH_181,Joshua Allen,DEALER_031,2020-08-25,Diesel Systems,Senior,19,5
+TECH_182,Jacob Harris,DEALER_032,2022-05-08,Electrical Systems,Senior,15,4
+TECH_183,Gary Green,DEALER_033,2022-04-15,General Repair,Master,24,4
+TECH_184,Ryan Robinson,DEALER_034,2021-04-28,Brake Systems,Journeyman,5,2
+TECH_185,Timothy Scott,DEALER_035,2022-01-04,Diesel Systems,Apprentice,10,5
+TECH_186,William Baker,DEALER_036,2021-03-10,Engine Diagnostics,Master,3,3
+TECH_187,Paul Rodriguez,DEALER_037,2021-02-24,Diesel Systems,Senior,20,5
+TECH_188,Mark Thompson,DEALER_038,2020-10-29,Brake Systems,Master,10,3
+TECH_189,Christopher Rodriguez,DEALER_039,2021-05-28,Brake Systems,Senior,5,4
+TECH_190,John Rodriguez,DEALER_040,2020-01-31,General Repair,Senior,20,4
+TECH_191,Matthew Taylor,DEALER_041,2020-04-17,Emissions Control,Apprentice,18,5
+TECH_192,David Young,DEALER_042,2022-07-07,Brake Systems,Journeyman,18,4
+TECH_193,Ryan King,DEALER_043,2021-03-29,Electrical Systems,Master,25,3
+TECH_194,Gregory Wright,DEALER_044,2021-09-09,Transmission,Master,3,2
+TECH_195,Edward Lewis,DEALER_045,2020-08-09,Transmission,Apprentice,4,3
+TECH_196,Kevin Flores,DEALER_046,2020-10-30,Diesel Systems,Senior,10,4
+TECH_197,Scott Torres,DEALER_047,2021-10-27,Transmission,Journeyman,16,4
+TECH_198,Jose Rivera,DEALER_048,2020-08-22,Brake Systems,Senior,15,4
+TECH_199,Mark Ramirez,DEALER_049,2021-11-25,Brake Systems,Apprentice,14,4
+TECH_200,Richard Lee,DEALER_050,2022-05-24,General Repair,Journeyman,13,2
