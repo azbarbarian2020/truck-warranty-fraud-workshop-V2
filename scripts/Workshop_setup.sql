@@ -8,19 +8,18 @@
 */                                                                                                                 
 
 -- Create the workshop database and schema
-CREATE DATABASE IF NOT EXISTS TRUCK_WARRANTY_WORKSHOP;
-CREATE SCHEMA IF NOT EXISTS TRUCK_WARRANTY_WORKSHOP.ANALYTICS;
-
-USE DATABASE TRUCK_WARRANTY_WORKSHOP;
-USE SCHEMA ANALYTICS;
+CREATE DATABASE IF NOT EXISTS TRUCK_WARRANTY_WORKSHOP;  --Change if needed
+CREATE SCHEMA IF NOT EXISTS TRUCK_WARRANTY_WORKSHOP.ANALYTICS;  --Change if needed
+USE DATABASE TRUCK_WARRANTY_WORKSHOP;  --Change if needed
+USE SCHEMA ANALYTICS;  --Change if needed
 
 -- Create compute warehouse
-CREATE WAREHOUSE IF NOT EXISTS COMPUTE_WH 
+CREATE WAREHOUSE IF NOT EXISTS COMPUTE_WH --Change if needed
     WAREHOUSE_SIZE = 'MEDIUM'
     AUTO_SUSPEND = 60
     AUTO_RESUME = TRUE;
 
-USE WAREHOUSE COMPUTE_WH;
+USE WAREHOUSE COMPUTE_WH;  --Change if needed
 
 -- Create stage for CSV data files with directory enabled and encryption
 CREATE OR REPLACE STAGE DATA_FILES
